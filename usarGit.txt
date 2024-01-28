@@ -1,0 +1,20 @@
+git config --global user.name "TuNombreDeUsuario"
+git config --global user.email "tu@email.com"
+ 
+Paso 3: Inicializar un Repositorio Git en tu Carpeta
+
+cd ruta/de/tu/carpeta
+git init
+
+Paso 4: Agregar Archivos al Repositorio
+git add .
+
+Paso 5: Hacer Commit de los Cambios Locales
+git commit -m "Primer commit"
+
+aso 6: Conectar tu Repositorio Local con GitHub
+git remote add origin <URL_del_repositorio>
+
+
+Paso 7: Hacer Push al Repositorio de GitHub
+git push -u origin master
